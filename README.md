@@ -2,8 +2,8 @@
 
 ## Content
 
-** project_scope file
-** Use cases diagram
-** Sequence diagram
-** Class diagram
-** Architectural pattern
+* project_scope file
+* Use cases diagram
+* Sequence diagram
+* Class diagram
+* Architectural pattern
