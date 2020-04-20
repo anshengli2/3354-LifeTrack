@@ -1,7 +1,19 @@
-test_plan:
+test_plan Java project:
 - displayDate
-- testDisplayDate
+This method uses the compareTo() method to compare two dates. If the result is a 0, the dates are equal. If not, the dates
+are not equal. 
 
-test_plan_activities:
+- testDisplayDate
+This file contains two test cases. The date we want to be displayed is 4/19/2020, so an object is created for this date. Another
+object is created for 4/19/2020. Then the assertEquals test is used to check if these dates are the same. Since they are equal, 
+the test passes. A third object is created for another date (12/3/2016), then the assertEquals test is used. This third object 
+is commented out. Since the two objects are not equal, the test fails.
+
+test_plan_activities Java project:
 - Activity
+The Activity object contains month, day, year, starting time of event (hour and minute), ending time of event (hour and minute),
+category, and description. This class contains two constructors, a method that checks conflicts, and a toString method. 
+
 - testComparingActivities
+This file contains two test cases. The first case is two events that do not conflict, so the test passes. The second case is 
+two conflicting events, so the test fails (this case is commented out).
