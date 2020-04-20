@@ -9,6 +9,7 @@ object is created for 4/19/2020. Then the assertEquals test is used to check if 
 the test passes. A third object is created for another date (12/3/2016), then the assertEquals test is used. This third object 
 is commented out. Since the two objects are not equal, the test fails.
 
+
 test_plan_activities Java project:
 - Activity
 The Activity object contains month, day, year, starting time of event (hour and minute), ending time of event (hour and minute),
