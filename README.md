@@ -7,3 +7,4 @@
 * Sequence diagram
 * Class diagram
 * Architectural pattern
+* test plan 
